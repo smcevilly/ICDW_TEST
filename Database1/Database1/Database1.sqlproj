@@ -67,5 +67,6 @@
     <Build Include="dbo\Tables\PVH_Allocate_03012016.sql" />
     <Build Include="dbo\Tables\PVH_Allocation_02233016.sql" />
     <Build Include="dbo\Tables\pvh_scott_allocation.sql" />
+    <Build Include="Table1.sql" />
   </ItemGroup>
 </Project>
