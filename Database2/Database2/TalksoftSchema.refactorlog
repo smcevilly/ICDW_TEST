@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="e40d7014-f59f-4c79-a4ca-8d2894a8c14c" ChangeDateTime="03/09/2016 19:39:37">
+    <Property Name="ElementName" Value="[Talksoft].[Talksoft_Appointment_Results]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Talksoft]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Appointment_Results]" />
+  </Operation>
+</Operations>
