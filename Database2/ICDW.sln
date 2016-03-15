@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TalksoftSchema", "Database2\TalksoftSchema.sqlproj", "{23BE02C6-D142-4153-B89C-DEC741A3FEE3}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "IWSSchema", "sch_IWS_stg\IWSSchema.sqlproj", "{65312F91-4D27-41A3-8B34-5B36E060A7E8}"
 EndProject
-Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Talksoft", "Integration Services Project1\Talksoft.dtproj", "{5ED54FE9-A43C-42C3-A738-1C88C51404A4}"
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Novant", "ssis_IWS_Novant\Novant.dtproj", "{D5C2E517-1EC1-47CF-9FD3-AC4E6C6453EA}"
 EndProject
-Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Novant", "Integration Services Project2\Novant.dtproj", "{29BA68B5-B251-44E5-9288-EDD1C7C8C9AE}"
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Talksoft", "ssis_IWS_Talksoft\Talksoft.dtproj", "{3F68F034-760D-48D0-803B-71F36449FF32}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "IWSSchema", "Database1\IWSSchema.sqlproj", "{65312F91-4D27-41A3-8B34-5B36E060A7E8}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TalksoftSchema", "sch_IWS_talksoft\TalksoftSchema.sqlproj", "{23BE02C6-D142-4153-B89C-DEC741A3FEE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,27 +16,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{23BE02C6-D142-4153-B89C-DEC741A3FEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{23BE02C6-D142-4153-B89C-DEC741A3FEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{23BE02C6-D142-4153-B89C-DEC741A3FEE3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{23BE02C6-D142-4153-B89C-DEC741A3FEE3}.Development|Any CPU.ActiveCfg = Debug|Any CPU
-		{23BE02C6-D142-4153-B89C-DEC741A3FEE3}.Development|Any CPU.Build.0 = Debug|Any CPU
-		{23BE02C6-D142-4153-B89C-DEC741A3FEE3}.Development|Any CPU.Deploy.0 = Debug|Any CPU
-		{23BE02C6-D142-4153-B89C-DEC741A3FEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{23BE02C6-D142-4153-B89C-DEC741A3FEE3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{23BE02C6-D142-4153-B89C-DEC741A3FEE3}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{5ED54FE9-A43C-42C3-A738-1C88C51404A4}.Debug|Any CPU.ActiveCfg = Development
-		{5ED54FE9-A43C-42C3-A738-1C88C51404A4}.Debug|Any CPU.Build.0 = Development
-		{5ED54FE9-A43C-42C3-A738-1C88C51404A4}.Development|Any CPU.ActiveCfg = Development
-		{5ED54FE9-A43C-42C3-A738-1C88C51404A4}.Development|Any CPU.Build.0 = Development
-		{5ED54FE9-A43C-42C3-A738-1C88C51404A4}.Release|Any CPU.ActiveCfg = Development
-		{5ED54FE9-A43C-42C3-A738-1C88C51404A4}.Release|Any CPU.Build.0 = Development
-		{29BA68B5-B251-44E5-9288-EDD1C7C8C9AE}.Debug|Any CPU.ActiveCfg = Development
-		{29BA68B5-B251-44E5-9288-EDD1C7C8C9AE}.Debug|Any CPU.Build.0 = Development
-		{29BA68B5-B251-44E5-9288-EDD1C7C8C9AE}.Development|Any CPU.ActiveCfg = Development
-		{29BA68B5-B251-44E5-9288-EDD1C7C8C9AE}.Development|Any CPU.Build.0 = Development
-		{29BA68B5-B251-44E5-9288-EDD1C7C8C9AE}.Release|Any CPU.ActiveCfg = Development
-		{29BA68B5-B251-44E5-9288-EDD1C7C8C9AE}.Release|Any CPU.Build.0 = Development
 		{65312F91-4D27-41A3-8B34-5B36E060A7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{65312F91-4D27-41A3-8B34-5B36E060A7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65312F91-4D27-41A3-8B34-5B36E060A7E8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
@@ -46,6 +25,27 @@ Global
 		{65312F91-4D27-41A3-8B34-5B36E060A7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65312F91-4D27-41A3-8B34-5B36E060A7E8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{65312F91-4D27-41A3-8B34-5B36E060A7E8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D5C2E517-1EC1-47CF-9FD3-AC4E6C6453EA}.Debug|Any CPU.ActiveCfg = Development
+		{D5C2E517-1EC1-47CF-9FD3-AC4E6C6453EA}.Debug|Any CPU.Build.0 = Development
+		{D5C2E517-1EC1-47CF-9FD3-AC4E6C6453EA}.Development|Any CPU.ActiveCfg = Development
+		{D5C2E517-1EC1-47CF-9FD3-AC4E6C6453EA}.Development|Any CPU.Build.0 = Development
+		{D5C2E517-1EC1-47CF-9FD3-AC4E6C6453EA}.Release|Any CPU.ActiveCfg = Development
+		{D5C2E517-1EC1-47CF-9FD3-AC4E6C6453EA}.Release|Any CPU.Build.0 = Development
+		{3F68F034-760D-48D0-803B-71F36449FF32}.Debug|Any CPU.ActiveCfg = Development
+		{3F68F034-760D-48D0-803B-71F36449FF32}.Debug|Any CPU.Build.0 = Development
+		{3F68F034-760D-48D0-803B-71F36449FF32}.Development|Any CPU.ActiveCfg = Development
+		{3F68F034-760D-48D0-803B-71F36449FF32}.Development|Any CPU.Build.0 = Development
+		{3F68F034-760D-48D0-803B-71F36449FF32}.Release|Any CPU.ActiveCfg = Development
+		{3F68F034-760D-48D0-803B-71F36449FF32}.Release|Any CPU.Build.0 = Development
+		{23BE02C6-D142-4153-B89C-DEC741A3FEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23BE02C6-D142-4153-B89C-DEC741A3FEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23BE02C6-D142-4153-B89C-DEC741A3FEE3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{23BE02C6-D142-4153-B89C-DEC741A3FEE3}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{23BE02C6-D142-4153-B89C-DEC741A3FEE3}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{23BE02C6-D142-4153-B89C-DEC741A3FEE3}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{23BE02C6-D142-4153-B89C-DEC741A3FEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23BE02C6-D142-4153-B89C-DEC741A3FEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23BE02C6-D142-4153-B89C-DEC741A3FEE3}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
