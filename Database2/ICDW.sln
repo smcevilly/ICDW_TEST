@@ -7,6 +7,8 @@ Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Talksoft", "Integration Ser
 EndProject
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Novant", "Integration Services Project2\Novant.dtproj", "{29BA68B5-B251-44E5-9288-EDD1C7C8C9AE}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "IWSSchema", "Database1\IWSSchema.sqlproj", "{65312F91-4D27-41A3-8B34-5B36E060A7E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,15 @@ Global
 		{29BA68B5-B251-44E5-9288-EDD1C7C8C9AE}.Development|Any CPU.Build.0 = Development
 		{29BA68B5-B251-44E5-9288-EDD1C7C8C9AE}.Release|Any CPU.ActiveCfg = Development
 		{29BA68B5-B251-44E5-9288-EDD1C7C8C9AE}.Release|Any CPU.Build.0 = Development
+		{65312F91-4D27-41A3-8B34-5B36E060A7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65312F91-4D27-41A3-8B34-5B36E060A7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65312F91-4D27-41A3-8B34-5B36E060A7E8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{65312F91-4D27-41A3-8B34-5B36E060A7E8}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{65312F91-4D27-41A3-8B34-5B36E060A7E8}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{65312F91-4D27-41A3-8B34-5B36E060A7E8}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{65312F91-4D27-41A3-8B34-5B36E060A7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65312F91-4D27-41A3-8B34-5B36E060A7E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65312F91-4D27-41A3-8B34-5B36E060A7E8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
